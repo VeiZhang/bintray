@@ -9,16 +9,17 @@
 参考[novoda][novoda]
 
 在Library的Module里build.gradle文件，添加的配置
-	```
-	publish {
-	    userOrg = 'veizhang'
-	    groupId = 'com.excellence'
-	    artifactId = 'permission'
-	    publishVersion = '1.0.0'
-	    desc = 'Android权限管理'
-	    website = 'https://github.com/VeiZhang/Permission'
-	}
-	```
+
+```
+publish {
+    userOrg = 'veizhang'
+    groupId = 'com.excellence'
+    artifactId = 'permission'
+    publishVersion = '1.0.0'
+    desc = 'Android权限管理'
+    website = 'https://github.com/VeiZhang/Permission'
+}
+```
 
 
 ### 同时发布到Jcenter和Maven
